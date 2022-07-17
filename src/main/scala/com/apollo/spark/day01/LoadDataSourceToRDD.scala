@@ -12,7 +12,7 @@ object LoadDataSourceToRDD {
 
     val rdd1: RDD[String] = sc.textFile("data/battle/input/")
 
-    
+
 
     rdd1.foreach(e=>println(e))
     //如果参数e在函数中只用了一次 则可以省略 变成一个下划线
